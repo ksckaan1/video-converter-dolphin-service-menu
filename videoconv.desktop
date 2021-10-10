@@ -4,49 +4,58 @@ X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/*;
 Actions=convert2mp3;convert2mp4;convert2mkv;convert2mov;convert2avi;convert2flv;convert2ts;convert2webm;
 X-KDE-Submenu=Convert Video
+X-KDE-Submenu[nl]=Video converteren
 Icon=emblem-videos-symbolic
 
 
 
 [Desktop Action convert2mp3]
 Name=Convert to mp3
+Name[nl]=Converteren naar mp3
 Icon=gtk-convert
 Exec=konsole --hold -e "dolphinvc -p convert -f %F -o mp3"
 
 [Desktop Action convert2mp4]
 Name=Convert to mp4
+Name[nl]=Converteren naar mp4
 Icon=gtk-convert
 Exec=konsole --hold -e "dolphinvc -p convert -f %F -o mp4"
 
 [Desktop Action convert2mkv]
 Name=Convert to mkv
+Name[nl]=Converteren naar mkv
 Icon=gtk-convert
 Exec=konsole --hold -e "dolphinvc -p convert -f %F -o mkv"
 
 
 [Desktop Action convert2mov]
 Name=Convert to mov
+Name[nl]=Converteren naar mov
 Icon=gtk-convert
 Exec=konsole --hold -e "dolphinvc -p convert -f %F -o mov"
 
 
 [Desktop Action convert2avi]
 Name=Convert to avi
+Name[nl]=Converteren naar avi
 Icon=gtk-convert
 Exec=konsole --hold -e "dolphinvc -p convert -f %F -o avi"
 
 
 [Desktop Action convert2flv]
 Name=Convert to flv
+Name[nl]=Converteren naar flv
 Icon=gtk-convert
 Exec=konsole --hold -e "dolphinvc -p convert -f %F -o flv"
 
 [Desktop Action convert2ts]
 Name=Convert to ts
+Name[nl]=Converteren naar ts
 Icon=gtk-convert
 Exec=konsole --hold -e "dolphinvc -p convert -f %F -o ts"
 
 [Desktop Action convert2webm]
 Name=Convert to webm
+Name[nl]=Converteren naar webm
 Icon=gtk-convert
 Exec=konsole --hold -e "dolphinvc -p convert -f %F -o webm"
