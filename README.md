@@ -1,6 +1,6 @@
 # Video Converter for Dolphin File Manager Service Menu
 
-![./screenshot.png]
+![Screenshot](./screenshot.png)
 
 ## Installation
 
