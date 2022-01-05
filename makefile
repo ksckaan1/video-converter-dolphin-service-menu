@@ -7,7 +7,7 @@ install:
 	echo "Installed Successfully"
 uninstall:
 	echo "Starting Uninstallation..."
-	sudo rm- rf /usr/bin/dolphinvc
+	sudo rm -rf /usr/bin/dolphinvc
 	sudo rm -rf $HOME/.local/share/kservices5/ServiceMenus/videoconv.desktop
 	echo "Uninstalled Successfully"
 buildnreinstall: build uninstall install
